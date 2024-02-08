@@ -6,5 +6,5 @@ services:
     restart: unless-stopped
     labels:
       - traefik.enable=true
-      - traefik.http.routers.whoami.rule=Host(`whoami.home.rileymathews.com`)
+      - traefik.http.routers.whoami.rule=Host(`whoami.rileymathews.com`)
       - traefik.http.routers.whoami.tls.certresolver=le
